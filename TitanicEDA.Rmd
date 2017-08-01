@@ -1,0 +1,40 @@
+---
+title: "Titanic App Introduction"
+author: "yi zheng"
+date: "July 31, 2017"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source('EDA.R')
+```
+
+## Agenda
+
+- Background
+- Titanic Dataset
+- Read Me
+- App link
+
+## Background
+
+This shiny app is build on titanic dataset, an introduction dataset used mostly for machine learning introduction.  
+It contains the data for all the passanger of the titanic 891 with 8 variable.  
+The application is also a dashboard to show the explortary analysis as well as the result of three popular machine learning algorithm prediction
+
+## Data
+
+```{r,echo=FALSE}
+summary(traindf1)
+```
+
+## Dashboard Readme
+
+- In the first tab, you could see the whole dataset
+- In the second tab, you could view the numeric distribution of the dataset
+- In the third tab, there is selection to see the machine learning prediction of the dataset
+
+## Application Link
+This is the link to the application
+[Here](https://hehe233.shinyapps.io/TitanicPrediction/)
